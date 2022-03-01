@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO 2 - HTML</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Cadastro</legend>
+        <br>
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <label>Nome
+                <br>
+                <input name="name" type="text">
+            </label>
+            <br>
+            <br>
+
+            <label>E-mail
+                <br>
+                <input name="e-mail" type="email" required>
+            </label>
+            <br>
+            <br>
+
+            <labe>Idade
+                <br>
+                <input name="idade" type="number" minlength="12" required>
+            </labe>
+            <br>
+            <br>
+
+            <label>Data de Nascimento
+                <br>
+                <input name="data-nascimento" type="date" required>
+            </label>
+            <br>
+            <br>
+
+            <label>Onde possui contas:
+                <br>
+            </label>
+
+            <label>Instagran
+                <input name="Insta" type="checkbox" required>
+            </label>
+
+            <label>Facebook
+                <input name="Fabe" type="checkbox" required>
+            </label>
+
+            <label>Youtube
+                <input name="Youtube" type="checkbox" required>
+            </label>
+
+            <br>
+            <br>
+            <label>Sexo
+                <br>
+            </label>
+
+            <label>Masculino
+                <input name="genero" type="radio" value="masculino" required>
+            </label>
+
+            <label>Feminino
+                <input name="genero" type="radio" value="faminino" required>
+            </label>
+
+            <br>
+            <br>
+
+            <label>Cor dos olhos
+                <input name="cor-dos-olhos" type="color">
+            </label>
+            <br>
+            <br>
+
+            <label>Biográfia
+                <br>
+                <textarea name="bio"></textarea>
+            </label>
+            <br>
+            <br>
+
+            <label>Foto do perfil
+                <br>
+                <input name="photo-perfil" type="file" accept="images/*">
+            </label>
+            <br>
+            <br>
+
+            <label>Telefone
+                <br>
+                <input name="telephone" type="tel">
+            </label>
+            <br>
+            <br>
+
+            <label>Link do perfil
+                <br>
+                <input name="url" type="url" required>
+            </label>
+            <br>
+            <br>
+
+            <label>Senha
+                <br>
+                <input name="passoword" type="password" min="6" max="8" required>
+            </label>
+            <br>
+            <br>
+
+            <button name="reset" type="reset">Limpar</button>
+            <button name="enviar" type="submit">Enviar</button>
+        </form>
+
+    </fieldset>
+
+</body>
+
+</html>
